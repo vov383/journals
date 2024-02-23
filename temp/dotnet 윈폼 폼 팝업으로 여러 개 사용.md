@@ -36,3 +36,5 @@ private void button1_Click(object sender, EventArgs e)
 
 **Q3:** 여러 개의 폼을 동시에 관리하려면 어떤 방식이 효과적일까요?
 
+
+[[윈폼 모달 vs 모달리스]]

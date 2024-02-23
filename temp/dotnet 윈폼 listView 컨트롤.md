@@ -47,3 +47,4 @@ private void listView1_MouseClick(object sender, MouseEventArgs e)
 
 `ListView`와 `DataGridView`는 서로 다른 컨트롤로, 각각의 특성과 사용 방법에 맞게 이벤트 핸들링과 속성 설정을 고려해야 합니다. `ListView`의 경우, 사용자의 클릭에 따른 상세한 제어가 필요할 때는 이벤트 핸들러 내에서 클릭된 위치와 해당 위치에 해당하는 항목 또는 하위 항목을 정밀하게 식별하는 로직을 구현해야 합니다.
 
+
