@@ -30,11 +30,63 @@ private void button1_Click(object sender, EventArgs e)
 
 **프로젝트에 적용하면서 고려할 질문들:**
 
-**Q1:** 새 폼을 모달 방식과 모달이 아닌 방식 중 어느 것을 사용해야 할까요? 어떤 경우에 각각 적합한가요?
 
-**Q2:** 새 폼에서 데이터를 전달하거나 받아오려면 어떻게 해야 할까요?
+
 
 **Q3:** 여러 개의 폼을 동시에 관리하려면 어떤 방식이 효과적일까요?
 
 
-[[윈폼 모달 vs 모달리스]]
+![[윈폼 모달 vs 모달리스]]
+
+
+새 폼에서 데이터를 전달하거나 받아오려면?
+
+엑세스할 수 없는 문제가 발생하는 경우, 가장 먼저 확인해야 할 사항은 `FormEdit` 내의 컨트롤(예: `TextBox`, `ComboBox`)에 접근할 수 있는지 여부입니다. 
+기본적으로, Windows Forms에서 폼의 컨트롤은 `private` 접근 제한자를 가지기 때문에 다른 폼에서 직접 접근할 수 없습니다. 
+이 문제를 해결하는 두 가지 방법은 다음과 같습니다:
+
+### 1. 공개 프로퍼티나 메서드 사용하기
+
+`FormEdit` 내에 데이터를 설정할 수 있는 공개 메서드나 프로퍼티를 만드는 것입니다. 이 방법은 `FormEdit`의 캡슐화를 유지하면서도 외부에서 데이터를 전달할 수 있는 효과적인 방법입니다.
+
+**예시:**
+
+`FormEdit`에 다음과 같이 공개 프로퍼티나 메서드를 추가합니다.
+
+```csharp
+public string DataProperty1 {
+    get { return textBox1.Text; }
+    set { textBox1.Text = value; }
+}
+
+public void SetData(string data1, string data2) {
+    textBox1.Text = data1;
+    comboBox1.SelectedItem = data2;
+}
+```
+
+그런 다음, `FormEdit`의 인스턴스를 생성하고 데이터를 전달할 때 이 메서드나 프로퍼티를 사용합니다.
+
+```csharp
+FormEdit formEdit = new FormEdit();
+formEdit.DataProperty1 = "값";
+// 또는
+formEdit.SetData("값1", "값2");
+formEdit.ShowDialog();
+```
+
+### 2. 컨트롤의 Modifiers 속성 변경하기
+
+디자이너에서 `FormEdit`의 해당 컨트롤을 선택하고, 속성 창에서 `Modifiers` 속성을 `public`이나 `internal`로 변경합니다. 이렇게 하면 다른 클래스나 폼에서도 해당 컨트롤에 접근할 수 있게 됩니다.
+
+하지만 이 방법은 컨트롤에 직접 접근하게 되므로, 객체 지향 설계 원칙 중 하나인 캡슐화를 위반할 수 있습니다. 가능하다면 첫 번째 방법을 사용하는 것이 더 좋습니다.
+
+### 문제 해결 후
+
+위의 방법들로도 문제가 해결되지 않는다면, 다음을 확인해 보세요:
+
+- `FormEdit`의 인스턴스가 올바르게 생성되었는지
+- 전달하려는 데이터가 유효한지 (예: `null`이 아닌지)
+- `FormEdit`가 올바른 스레드에서 열리고 있는지 (특히, 멀티 스레딩을 사용하는 경우)
+
+이러한 점들을 검토하여 문제를 해결하시길 바랍니다.
