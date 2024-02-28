@@ -4,7 +4,7 @@ created: 2024-02-27 01:56
 alias:
 tags:
 ---
-![[4. Archive/attachment/Pasted image 20240227133752.png]]
+![[../../4. Archive/attachment/Pasted image 20240227133752.png]]
 catch로 넣은 exception에 잡힌 에러
 sql문에 들어가야 할 공백이 빠져서 발생한 에러
 ```CSharp 

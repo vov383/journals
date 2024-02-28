@@ -4,7 +4,7 @@ created: 2024-02-27 09:12
 alias:
 tags:
 ---
-![[4. Archive/attachment/Pasted image 20240227085719.png]]
+![[../../4. Archive/attachment/Pasted image 20240227085719.png]]
 # 원인:
 Windows 캐시가 가득 차있거나 차단되었습니다.
 # 해결 방법:

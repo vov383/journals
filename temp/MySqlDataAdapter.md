@@ -15,3 +15,7 @@ tags:
 	- `MySqlDataAdapter`를 사용하면, `DataSet`에 대한 CRUD(Create, Read, Update, Delete) 작업을 수행한 후, 
 	- 이를 데이터베이스에 동기화할 수 있습니다.
 
+###### MySqlDataAdapter() 생성자 오버로드
+![[MySqlDataAdapter() 생성자 오버로드]]
+
+[[MySqlDataAdapter와 MySqlDataReader의 차이점]]

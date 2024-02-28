@@ -18,4 +18,8 @@ F5 : 디버그
 
 ctrl + . : 빠른 리펙터링 
 
+ctrl + shift + backspace : 마지막 편집 위치로 이동
 
+Ctrl+Alt+O : 콘솔 창 열기
+###### visual studio 콘솔창
+![[visual studio 콘솔창]]
