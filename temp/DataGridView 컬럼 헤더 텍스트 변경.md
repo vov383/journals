@@ -20,4 +20,5 @@ private void updateColumnHeaderText()
 }
 ```
 
-[[../../dotnet DataGridView|dotnet DataGridView]]
+[[dotnet DataGridView|dotnet DataGridView]]
+
