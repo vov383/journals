@@ -74,4 +74,4 @@ private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
 이러한 기능들을 활용하면 `DataSource` 방식으로 데이터를 바인딩하면서도, 특정 셀이나 로우에 대한 세밀한 제어가 가능해져, 사용자 인터페이스의 유연성과 사용자 경험을 크게 향상시킬 수 있습니다.
 
 
-[[dotnet DataGridView]]
+[[DataGridView 컨트롤]]

@@ -57,4 +57,4 @@ dataGridView1.Columns[e.ColumnIndex].Name == "gender"
 
 
 [[DataSource 속성 사용]]
-[[dotnet DataGridView]]
+[[DataGridView 컨트롤]]

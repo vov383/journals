@@ -1,5 +1,5 @@
 ---
-title: dotnet 윈폼 listView 컨트롤
+title: listView 컨트롤
 created: 2024-02-22 12:43
 alias:
 tags:
