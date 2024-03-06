@@ -5,7 +5,11 @@ alias:
 tags:
 ---
 ctrl k s : 단축키 설정
+
+alt shift = : extend selection area
+
 ctrl atl x : 도구상자 
+
 F4 : 속성창
 ctrl shift e : 솔루션 탐색기
 
