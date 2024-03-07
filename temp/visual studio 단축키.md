@@ -4,8 +4,13 @@ created: 2024-02-27 08:41
 alias:
 tags:
 ---
+
 ctrl k s : 단축키 설정
-ctrl atl x : 도구상자 
+
+alt shift = : extend selection area
+
+ctrl atl x : 도구상자
+
 F4 : 속성창
 ctrl shift e : 솔루션 탐색기
 
@@ -16,12 +21,14 @@ ctrl + shift + B : 빌드
 F5 : 디버그
 코드 스니펫 입력하고 tab tab : 코드 구조가 자동 생성
 
-ctrl + . : 빠른 리펙터링 
+ctrl + . : 빠른 리펙터링
 
 ctrl + shift + backspace : 마지막 편집 위치로 이동
 
 Ctrl+Alt+O : 콘솔 창 열기
+
 ###### visual studio 콘솔창
+
 ![[visual studio 콘솔창]]
 
 ctrl + r + r : 변수명 모두 바꾸기
@@ -38,3 +45,5 @@ ctrl + r + r : 변수명 모두 바꾸기
 - 선택 영역 주석 취소하기: `Ctrl` + `k` 입력 후 `Ctrl` + `u`
 
 ctrl + (백틱) : NuGet 패키지 관리자 콘솔 열기
+
+[[visual studio 디버깅 툴]]
