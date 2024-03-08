@@ -12,5 +12,3 @@ if (ds.Tables[0].Rows.Count > 20)
     fpSpread1_Sheet1.AddRows(20, ds.Tables[0].Rows.Count - 20);
 }
 ```
-
-
