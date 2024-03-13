@@ -5,6 +5,15 @@ alias:
 tags:
 ---
 
+alt shift . : 일치하는 다음 항목에 캐럿 삽입(커서 관련)
+
+ctrl + alt + T : 문서개요 보기
+
+`ctrl + shift + [` : 현재 영역 접기
+`ctrl + shift + ]` : 현재 영역 펴기
+
+ctrl + k + j : 전체 펴기
+
 ctrl k s : 단축키 설정
 
 alt shift = : extend selection area

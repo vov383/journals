@@ -36,3 +36,13 @@ conn.Close();
 
 ###### 특정 DataTable 병합
 ![[journals/temp/특정 DataTable 병합]]
+
+
+DataSet을 Row[] 배열에 담는 메서드.
+```cs
+DataRow[] ship_rows = ds.Tables[0].Select();
+```
+파라미터 하나 쓰면 
+Select()에 filterExpression을 넣어서 한번 더 조건을 걸 수 있고
+
+파라미터 두개 쓰면 sort도 가능
