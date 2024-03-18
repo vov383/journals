@@ -4,7 +4,7 @@ created: 2024-02-27 08:41
 alias:
 tags:
 ---
-
+alt + 마우스 드래그 : 선택한 영역 좌표부터 RECT 드래그
 alt shift . : 일치하는 다음 항목에 캐럿 삽입(커서 관련)
 
 ctrl + alt + T : 문서개요 보기
