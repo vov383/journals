@@ -1,9 +1,13 @@
----
+	---
 title: visual studio 단축키
 created: 2024-02-27 08:41
 alias:
 tags:
 ---
+**1. Shift + Alt + W, N**
+동일한 파일의 창을 하나 더 연다
+**2. Shift + Alt + W, V**
+연 창을 오른쪽에 배치시킨다.
 
 alt shift . : 일치하는 다음 항목에 캐럿 삽입(커서 관련)
 
@@ -56,3 +60,5 @@ ctrl + r + r : 변수명 모두 바꾸기
 ctrl + (백틱) : NuGet 패키지 관리자 콘솔 열기
 
 [[visual studio 디버깅 툴]]
+
+## 사용자 지정 단축키
