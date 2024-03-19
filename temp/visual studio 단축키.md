@@ -1,9 +1,14 @@
-	---
+    ---
+
 title: visual studio 단축키
 created: 2024-02-27 08:41
 alias:
 tags:
+
 ---
+
+alt + 마우스 드래그 : 선택한 영역 좌표부터 RECT 드래그
+
 **1. Shift + Alt + W, N**
 동일한 파일의 창을 하나 더 연다
 **2. Shift + Alt + W, V**
