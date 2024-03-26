@@ -7,6 +7,8 @@ tags:
 
 ---
 
+ctrl R ctrl M : 리펙토링, 메서드 추출
+
 alt + 마우스 드래그 : 선택한 영역 좌표부터 RECT 드래그
 
 **1. Shift + Alt + W, N**
