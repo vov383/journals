@@ -20,4 +20,5 @@ SetCellValue(rIdx, cIdx, "Value");
 SetCellText(rIdx, cIdx, "Text");
 SetCellTag(rIdx, cIdx, "Tag");
 
+sizeFit
 
