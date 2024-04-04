@@ -55,3 +55,9 @@ someControl.GiveFeedback += (sender, e) =>
 
 - **성능 고려**: `GiveFeedback` 이벤트는 드래그 작업 중 반복적으로 발생할 수 있으므로, 이벤트 핸들러 내에서 성능에 영향을 미칠 수 있는 무거운 작업을 피해야 합니다.
 - **이벤트 버블링**: `GiveFeedback` 이벤트는 버블링이나 터널링이 일어나지 않습니다. 즉, 이 이벤트는 드래그 소스 컨트롤에만 한정되어 발생합니다.
+[[버블링(bubbling)과 터널링(tunneling)]]
+[[터널링(Tunneling)]]
+[[버블링(Bubbling)]]
+
+
+
