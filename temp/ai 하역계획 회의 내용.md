@@ -110,3 +110,22 @@ db테이블에 저장되면 로드될 때 표시되도록
 
 ![[하작계 ai 수정 논의 조금 확대 2.png]]
 
+하역작업계획 ai 관련 테이블
+
+tb_unload_lock 
+선석 언로드 락 정보 테이블
+
+tb_unload_planinput 
+ai 정보 보낼 테이블
+
+tb_com_task 테이블에 
+선석하역프로세스로 param1은 
+tb_unload_planinput의 WORK_KEY 값 
+
+WORK_KEY는 
+FN_COM_KEYXDATA 테이블
+```sql
+SELECT FN_COM_KEYXDATA('@@TB_UNLOAD_PLANINPUT.WORK_KEY')
+``` 
+해서 값으로 가져오면 됨
+그 값으로 10개든 20개든 선박을 planinput 테이블에 넣어야지
