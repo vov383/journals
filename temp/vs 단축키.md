@@ -1,10 +1,8 @@
-    ---
-
+---
 title: visual studio 단축키
 created: 2024-02-27 08:41
 alias:
 tags:
-
 ---
 
 ctrl + k + j : 전체 펴기
@@ -71,3 +69,6 @@ ctrl + (백틱) : NuGet 패키지 관리자 콘솔 열기
 [[visual studio 디버깅 툴]]
 
 ## 사용자 지정 단축키
+ctrl + w : expand selection
+ctrl + shift + w : contract selection
+
