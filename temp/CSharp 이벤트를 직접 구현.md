@@ -1,5 +1,5 @@
 ---
-title: C 이벤트를 직접 구현
+title: CSharp 이벤트를 직접 구현
 created: 2024-04-16 11:23
 alias:
 tags:
