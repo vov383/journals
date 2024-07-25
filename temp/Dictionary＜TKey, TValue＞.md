@@ -1,7 +1,7 @@
 ---
 title: Dictionary＜TKey, TValue＞
 created: 2024-03-06 09:56
-alias:
+alias: [딕셔너리]
 tags:
 ---
 `Dictionary<TKey, TValue>` 클래스는 
