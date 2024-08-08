@@ -2,12 +2,13 @@
 title: COALESCE 함수와 MAX 함수의 조합 in MySQL
 created: 2024-07-31 02:54
 alias:
-tags:
+tags: [MySQL, DB]
 ---
 `COALESCE` 함수와 `MAX` 함수의 조합은 SQL에서 흔히 사용되는 방법으로, `NULL` 값을 대체하고 그룹화된 데이터 중 최대 값을 선택하는 데 사용됩니다.
 
-### COALESCE 함수
-`COALESCE` 함수는 주어진 인자 중 첫 번째로 `NULL`이 아닌 값을 반환합니다. 만약 모든 인자가 `NULL`이라면, 마지막 인자를 반환합니다. 즉, `COALESCE(a, b)`는 `a`가 `NULL`이 아니면 `a`를 반환하고, `a`가 `NULL`이면 `b`를 반환합니다.
+###### COALESCE 함수
+![[COALESCE() in MySQL]]
+
 
 ### MAX 함수
 `MAX` 함수는 주어진 컬럼의 최대 값을 반환합니다. 일반적으로 그룹화된 데이터에서 가장 큰 값을 찾는 데 사용됩니다.
