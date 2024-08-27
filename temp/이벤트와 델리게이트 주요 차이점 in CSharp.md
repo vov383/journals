@@ -23,3 +23,10 @@ tags:
 객체 간의 통신 및 이벤트 핸들링.
 
 
+
+--- 
+참조
+[[델리게이트 in CSharp|델리게이트]]
+
+###### Delegate와 Action에 대한 기초 이해
+![[journals/temp/Delegate와 Action에 대한 기초 이해]]
