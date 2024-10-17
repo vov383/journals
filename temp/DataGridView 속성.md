@@ -54,7 +54,25 @@ dataGridView1.Columns[e.ColumnIndex].Name == "gender"
 ### 유용성을 위한 사용자 정의: 
 때로는 기본 동작이 정확히 필요한 동작이 아닐 수도 있습니다. CellClick과 같은 이벤트를 처리하여 프로그래밍 방식으로 선택을 제어하고 애플리케이션 요구 사항에 따라 다양한 동작을 제공할 수 있습니다.
 
+### Selection 동작을 막고 싶다면?
+DataGridView 컨트롤에 `SelectionPolicy` 같은 속성은 없어.
+선택을 막는 기능이 자체적으로 없음.
+DataGridView 자체의 `Enable` 을 `false로` 처리하면 문제가 해결되지 않음.
 
+```cs
+_dgvHoldInfo.SelectionChanged += dataGridView_SelectionClear;
+
+private void dataGridView_SelectionClear(object sender, EventArgs e)
+{
+    // DataGridView 셀 선택 방지
+    if(sender is DataGridView dgv)
+    {
+        dgv.ClearSelection();
+    }
+}
+```
+
+`SelectionChanged` 이벤트를 사용하여 `ClearSelection()` 해주면 된다.
 
 [[DataSource 속성 사용]]
 [[DataGridView 컨트롤]]
