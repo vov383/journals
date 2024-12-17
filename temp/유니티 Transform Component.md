@@ -248,12 +248,11 @@ UI 요소는 **RectTransform**을 사용하며, 기본 Transform과는 조금 �
 **Q2:** Transform을 이용해 특정 경로를 따라 움직이는 애니메이션을 구현하려면 어떤 방식이 효율적일까요?
 
 
----
-title: 유니티 Transform Component
-created: 2024-12-06 04:59
-alias:
-tags:
----
+
+
+
+
+
 ### 2. **Camera**
 
 씬을 렌더링하는 역할을 하는 컴포넌트.
