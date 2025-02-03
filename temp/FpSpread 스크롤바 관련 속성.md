@@ -10,4 +10,7 @@ fpSpread.RowSplitBoxPolicy = SplitBoxPolicy.Never;
 fpSpread.ColumnSplitBoxPolicy = SplitBoxPolicy.Never;
 ```
 
+###### 스크롤바 이동
+![[journals/temp/스크롤바 이동]]
+
 
