@@ -1,8 +1,8 @@
 ---
-title: 확장 메서드(Extension Methods)
+title: 확장 메서드(Extension Methods) in CSharp
 created: 2024-05-Su 14:43:05
 aliases: 
-tags:
+tags: [CSharp]
 ---
 ###### 확장 메서드 개요
 기존 형식에 새로운 메서드를 추가하는 방법을 제공하는 
