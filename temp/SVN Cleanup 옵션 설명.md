@@ -10,8 +10,7 @@ TortoiseSVN에서 Cleanup 명령을 실행할 때 사용할 수 있는 여러 �
 
 1. **Break Locks (잠금 해제)**
    - 다른 사용자가 걸어놓은 잠금을 강제로 해제합니다. 이 옵션은 잠금을 강제 해제해야 할 경우 사용합니다.
-   
-2. **Fix Time Stamps (타임스탬프 수정)**
+1. **Fix Time Stamps (타임스탬프 수정)**
    - 파일 시스템의 타임스탬프를 수정하여 SVN과 파일 시스템 간의 시간 동기화를 맞춥니다.
 
 3. **Revert all changes recursively (재귀적으로 모든 변경 사항 되돌리기)**
@@ -63,3 +62,10 @@ Q2: Cleanup 옵션을 사용한 후에도 문제가 해결되지 않는다면 �
 Q1, Q2. 이 질문들은 SVN Cleanup 옵션의 실용성과 추가 문제 해결 방법에 대해 더 깊이 이해할 수 있도록 합니다.
 
 
+
+![[../../noGitSync/Attachments/Pasted image 20250324171449.png]]
+- **Vacuum pristine copies**  
+    .svn 폴더 내부에는 “pristine copy”라는 작업 전/후 상태의 파일들이 별도로 저장됩니다. 이 항목에 체크하면 사용하지 않는 pristine 파일을 정리하여 .svn 폴더 용량을 줄일 수 있습니다.
+    
+- **Clean up working copy status**  
+    작업 복사본 상태를 정리하면서 .svn 내부 메타데이터에 문제(잠금, 충돌 정보 등)가 있으면 해소할 수 있으므로 간접적으로 용량에 영향을 줄 수 있습니다.
