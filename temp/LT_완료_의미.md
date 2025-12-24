@@ -1,5 +1,5 @@
 ---
-title: LT 완료 컬럼의
+title: LT_완료_의미
 created: 2024-03-11 03:44
 alias:
 tags:
@@ -36,10 +36,10 @@ Laytime이 개시되기 위하여는
 
 #### **1. Lay Time과 Turn Time**
 ###### Lay Time
-![[journals/temp/Lay Time]]
+![Lay Time](journals/temp/Lay Time)
 
-###### Turn Time
-![[journals/temp/Turn Time]]
+###### Turn_Time
+![[Turn_Time]]
 
 
 #### **2. 하역 작업 시작 (착수)**
